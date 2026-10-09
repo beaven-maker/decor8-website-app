@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: decor8-website
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    branch: main
